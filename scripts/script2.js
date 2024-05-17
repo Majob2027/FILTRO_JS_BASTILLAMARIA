@@ -14,7 +14,7 @@ function getmovie(movie) {
 
         if (movieinfo) {
 
-            document.getElementById('tetxo1').textContent = movieinfo.description
+            document.getElementById('teXTO1').textContent = data.description
             
         
             

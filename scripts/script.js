@@ -14,7 +14,7 @@ function getmovie(movie) {
 
         if (movieinfo) {
             const movieinfo = document.getElementById('movie-info');
-            console.log(data)
+            console.log(movieinfo)
             movieinfo.innerHTML = `
             <p id =texto1> ok <div> ${movieinfo.ok}</div> 
             <p id=titulo2> Title <div> ${movieinfo.description}</div>
